@@ -11,6 +11,7 @@ Created on Mon Jul 15 11:25:21 2019
 import cv2
 
 # Loading the cascades
+# Complete path to file is required
 face_cascade = cv2.CascadeClassifier("C:\\Users\\Madhav\\Documents\\computer vision\\Module_1_Face_Recognition\\haarcascade_frontalface_default.xml")
 eye_cascade = cv2.CascadeClassifier("C:\\Users\\Madhav\\Documents\\computer vision\\Module_1_Face_Recognition\\haarcascade_eye.xml")
 smile_cascade = cv2.CascadeClassifier("C:\\Users\\Madhav\\Documents\\computer vision\\Module_1_Face_Recognition\\haarcascade_smile.xml")
